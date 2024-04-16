@@ -15,7 +15,6 @@ function solicitarNombreUsuario() {
         return monto;
       }
       mostrarMensaje(`⚠ El monto ingresado no es válido.\n\n⚠Por favor asegúrese de ingresar un monto válido.`);
-      //break;
     }
   
   }
@@ -27,7 +26,6 @@ function solicitarNombreUsuario() {
         return monto.toFixed(2);
       }
       mostrarMensaje(`⚠ El monto ingresado no es válido.\n\n⚠ Por favor asegúrese dei ngresar un monto válido.`);
-      //break;
     }
   }
   
